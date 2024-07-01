@@ -6,13 +6,13 @@ Anomaly Detection Learning Resources
    :alt: GitHub stars
 
 
-.. image:: https://img.shields.io/github/forks/yzhao062/anomaly-detection-resources.svg?color=blue
-   :target: https://github.com/yzhao062/anomaly-detection-resources/network
+.. image:: https://img.shields.io/github/forks/Tony-Hou/world-model-resources.svg?color=blue
+   :target: https://github.com/Tony-Hou/world-model-resources/network
    :alt: GitHub forks
 
 
-.. image:: https://img.shields.io/github/license/yzhao062/anomaly-detection-resources.svg?color=blue
-   :target: https://github.com/yzhao062/anomaly-detection-resources/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/Tony-Hou/world-model-resources.svg?color=blue
+   :target: https://github.com/Tony-Hou/world-model-resources/blob/master/LICENSE
    :alt: License
 
 
@@ -21,16 +21,16 @@ Anomaly Detection Learning Resources
    :alt: Awesome
 
 
-.. image:: https://img.shields.io/badge/ADBench-benchmark_results-pink
+.. image:: https://img.shields.io/badge/benchmark_results-pink
    :target: https://github.com/Minqi824/ADBench
    :alt: Benchmark
 
 
 ----
 
-`Outlier Detection <https://en.wikipedia.org/wiki/Anomaly_detection>`_
-(also known as *Anomaly Detection*) is an exciting yet challenging field,
-which aims to identify outlying objects that are deviant from the general data distribution.
+`World model <https://x.com/ylecun/status/1759933365241921817>`_
+Lecun gave a very good definition. World model is an exciting yet challenging field,
+which aims to make AI systems learn and reason like animals and humans. 
 Outlier detection has been proven critical in many fields, such as credit card
 fraud analytics, network intrusion detection, and mechanical unit defect detection.
 
@@ -46,10 +46,10 @@ fraud analytics, network intrusion detection, and mechanical unit defect detecti
 
 **More items will be added to the repository**.
 Please feel free to suggest other key resources by opening an issue report,
-submitting a pull request, or dropping me an email @ (yzhao010@usc.edu).
+submitting a pull request, or dropping me an email @ (hljzzu@gmail.com).
 Enjoy reading!
 
-BTW, you may find my `[GitHub] <https://github.com/yzhao062>`_ and
+BTW, you may find my `[GitHub] <https://github.com/Tony-Hou>`_ and
 `[outlier detection papers] <https://scholar.google.com/citations?user=zoGDYsoAAAAJ&hl=en>`_ useful,
 especially `PyOD library <https://github.com/yzhao062/pyod>`_ and `ADBench benchmark <https://github.com/Minqi824/ADBench>`_.
 
@@ -70,32 +70,13 @@ Table of Contents
 
   * `3.1. Multivariate data outlier detection <#31-multivariate-data>`_
   * `3.2. Time series outlier detection <#32-time-series-outlier-detection>`_
-  * `3.3. Graph Outlier Detection <#33-graph-outlier-detection>`_
-  * `3.4. Real-time Elasticsearch <#34-real-time-elasticsearch>`_
-  * `3.5. Datasets <#35-datasets>`_
+  * `3.3. Datasets <#35-datasets>`_
 
 * `4. Papers <#4-papers>`_
 
   * `4.1. Overview & Survey Papers <#41-overview--survey-papers>`_
   * `4.2. Key Algorithms <#42-key-algorithms>`_
-  * `4.3. Graph & Network Outlier Detection <#43-graph--network-outlier-detection>`_
-  * `4.4. Time Series Outlier Detection <#44-time-series-outlier-detection>`_
-  * `4.5. Feature Selection in Outlier Detection <#45-feature-selection-in-outlier-detection>`_
-  * `4.6. High-dimensional & Subspace Outliers <#46-high-dimensional--subspace-outliers>`_
-  * `4.7. Outlier Ensembles <#47-outlier-ensembles>`_
-  * `4.8. Outlier Detection in Evolving Data <#48-outlier-detection-in-evolving-data>`_
-  * `4.9. Representation Learning in Outlier Detection <#49-representation-learning-in-outlier-detection>`_
-  * `4.10. Interpretability <#410-interpretability>`_
-  * `4.11. Outlier Detection with Neural Networks <#411-outlier-detection-with-neural-networks>`_
-  * `4.12. Active Anomaly Detection <#412-active-anomaly-detection>`_
-  * `4.13. Interactive Outlier Detection <#413-interactive-outlier-detection>`_
-  * `4.14. Outlier Detection in Other fields <#414-outlier-detection-in-other-fields>`_
-  * `4.15. Outlier Detection Applications <#415-outlier-detection-applications>`_
-  * `4.16. Automated Outlier Detection <#416-automated-outlier-detection>`_
-  * `4.17. Machine Learning Systems for Outlier Detection <#417-machine-learning-systems-for-outlier-detection>`_
-  * `4.18. Fairness and Bias in Outlier Detection <#418-fairness-and-bias-in-outlier-detection>`_
-  * `4.19. Isolation-based Methods <#419-isolation-based-methods>`_
-  * `4.20. Emerging and Interesting Topics <#420-emerging-and-interesting-topics>`_
+
 
 * `5. Key Conferences/Workshops/Journals <#5-key-conferencesworkshopsjournals>`_
 
