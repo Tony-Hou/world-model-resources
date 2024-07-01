@@ -493,9 +493,7 @@ Paper Title                                                                     
 =================================================================================================  ============================  =====  =============================  ==============================================================================================================================================================================================
 Isolation forest                                                                                   ICDM                          2008   [#Liu2008Isolation]_           `[PDF] <https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf>`_
 Isolation‐based anomaly detection using nearest‐neighbor ensembles                                  Computational Intelligence    2018   [#Bandaragoda2018Isolation]_   `[PDF] <https://www.researchgate.net/publication/322359651_Isolation-based_anomaly_detection_using_nearest-neighbor_ensembles_iNNE>`_, `[Code] <https://github.com/zhuye88/iNNE>`_
-Extended Isolation Forest                                                                          TKDE                          2019   [#Hariri2019Extended]_         `[PDF] <https://arxiv.org/pdf/1811.02141.pdf>`_, `[Code] <https://github.com/sahandha/eif>`_
-Isolation Distributional Kernel: A New Tool for Kernel based Anomaly Detection                     KDD                           2020   [#Ting2020Isolation]_          `[PDF] <https://arxiv.org/pdf/2009.12196.pdf>`_, `[Code] <https://github.com/IsolationKernel/Codes/tree/main/IDK>`_
-Deep Isolation Forest for Anomaly Detection                                                        TKDE                          2023   [#Xu2023Deep]_                 `[PDF] <https://arxiv.org/abs/2206.06602>`_, `[Code] <https://github.com/xuhongzuo/deep-iforest>`_
+
 =================================================================================================  ============================  =====  =============================  ==============================================================================================================================================================================================
 
 
@@ -507,8 +505,8 @@ Deep Isolation Forest for Anomaly Detection                                     
 Paper Title                                                                                        Venue                         Year   Ref                           Materials
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Clustering with Outlier Removal                                                                    TKDE                          2019   [#Liu2018Clustering]_         `[PDF] <https://arxiv.org/pdf/1801.01899.pdf>`_
-Real-World Anomaly Detection by using Digital Twin Systems and Weakly-Supervised Learning          IEEE Trans. Ind. Informat.    2020   [#Castellani2020Siamese]_     `[PDF] <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9179030>`_
-SSD: A Unified Framework for Self-Supervised Outlier Detection                                     ICLR                          2021   [#Sehwag2021SSD]_             `[PDF] <https://openreview.net/pdf?id=v5gjXpmR8J>`_, `[Code] <https://github.com/inspire-group/SSD>`_
+
+
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -526,36 +524,13 @@ can be found `data-mining-conferences <https://github.com/yzhao062/data-mining-c
 
 `ACM International Conference on Knowledge Discovery and Data Mining (SIGKDD) <http://www.kdd.org/conferences>`_. **Note**: SIGKDD usually has an Outlier Detection Workshop (ODD), see `ODD 2021 <https://oddworkshop.github.io/>`_.
 
-`ACM International Conference on Management of Data (SIGMOD) <https://sigmod.org/>`_
 
-`The Web Conference (WWW) <https://www2018.thewebconf.org/>`_
-
-`IEEE International Conference on Data Mining (ICDM) <http://icdm2018.org/>`_
-
-`SIAM International Conference on Data Mining (SDM) <https://www.siam.org/Conferences/CM/Main/sdm19>`_
-
-`IEEE International Conference on Data Engineering (ICDE) <https://icde2018.org/>`_
-
-`ACM InternationalConference on Information and Knowledge Management (CIKM) <http://www.cikmconference.org/>`_
-
-`ACM International Conference on Web Search and Data Mining (WSDM) <http://www.wsdm-conference.org/2018/>`_
-
-`The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) <http://www.ecmlpkdd2018.org/>`_
-
-`The Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) <http://pakdd2019.medmeeting.org>`_
 
 5.2. Journals
 ^^^^^^^^^^^^^
 
 `ACM Transactions on Knowledge Discovery from Data (TKDD) <https://tkdd.acm.org/>`_
 
-`IEEE Transactions on Knowledge and Data Engineering (TKDE) <https://www.computer.org/web/tkde>`_
-
-`ACM SIGKDD Explorations Newsletter <http://www.kdd.org/explorations>`_
-
-`Data Mining and Knowledge Discovery <https://link.springer.com/journal/10618>`_
-
-`Knowledge and Information Systems (KAIS) <https://link.springer.com/journal/10115>`_
 
 ----
 
