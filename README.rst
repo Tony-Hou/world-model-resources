@@ -1,4 +1,4 @@
-Anomaly Detection Learning Resources
+World model  Learning Resources
 ====================================
 
 .. image:: https://img.shields.io/github/stars/Tony-Hou/world-model-resources.svg
@@ -31,15 +31,14 @@ Anomaly Detection Learning Resources
 `World model <https://x.com/ylecun/status/1759933365241921817>`_
 Lecun gave a very good definition. World model is an exciting yet challenging field,
 which aims to make AI systems learn and reason like animals and humans. 
-Outlier detection has been proven critical in many fields, such as credit card
-fraud analytics, network intrusion detection, and mechanical unit defect detection.
+
 
 **This repository collects**:
 
 
 #. Books & Academic Papers 
 #. Online Courses and Videos
-#. Outlier Datasets
+#. World model Datasets
 #. Open-source and Commercial Libraries/Toolkits
 #. Key Conferences & Journals
 
@@ -50,8 +49,8 @@ submitting a pull request, or dropping me an email @ (hljzzu@gmail.com).
 Enjoy reading!
 
 BTW, you may find my `[GitHub] <https://github.com/Tony-Hou>`_ and
-`[outlier detection papers] <https://scholar.google.com/citations?user=zoGDYsoAAAAJ&hl=en>`_ useful,
-especially `PyOD library <https://github.com/yzhao062/pyod>`_ and `ADBench benchmark <https://github.com/Minqi824/ADBench>`_.
+`[world model papers] <https://scholar.google.com/citations?user=WLN3QrAAAAAJ&hl=en>`_ useful
+especially ` library <>`_ and ` benchmark <>`_.
 
 ----
 
@@ -68,8 +67,8 @@ Table of Contents
 * `2. Courses/Seminars/Videos <#2-coursesseminarsvideos>`_
 * `3. Toolbox & Datasets <#3-toolbox--datasets>`_
 
-  * `3.1. Multivariate data outlier detection <#31-multivariate-data>`_
-  * `3.2. Time series outlier detection <#32-time-series-outlier-detection>`_
+  * `3.1.  <#31>`_
+  * `3.2. world  <#32->`_
   * `3.3. Datasets <#35-datasets>`_
 
 * `4. Papers <#4-papers>`_
@@ -93,15 +92,11 @@ Table of Contents
 1.1. Books
 ^^^^^^^^^^
 
-`Outlier Analysis <https://link.springer.com/book/10.1007/978-3-319-47578-3>`_ 
-by Charu Aggarwal: Classical text book covering most of the outlier analysis techniques. 
-A **must-read** for people in the field of outlier detection. `[Preview.pdf] <http://charuaggarwal.net/outlierbook.pdf>`_
+`World model <https://openreview.net/pdf?id=BZ5a1r-kVsf>`_ 
+by Yann LeCun: 
+A **must-read** for people in the field of world model. 
 
-`Outlier Ensembles: An Introduction <https://www.springer.com/gp/book/9783319547640>`_ 
-by Charu Aggarwal and Saket Sathe: Great intro book for ensemble learning in outlier analysis.
 
-`Data Mining: Concepts and Techniques (3rd) <https://www.elsevier.com/books/data-mining-concepts-and-techniques/han/978-0-12-381479-1>`_ 
-by Jiawei Han and Micheline Kamber and Jian Pei: Chapter 12 discusses outlier detection with many key points. `[Google Search] <https://www.google.ca/search?&q=data+mining+jiawei+han&oq=data+ming+jiawei>`_
 
 1.2. Tutorials
 ^^^^^^^^^^^^^^
@@ -110,15 +105,7 @@ by Jiawei Han and Micheline Kamber and Jian Pei: Chapter 12 discusses outlier de
 Tutorial Title                                        Venue                                         Year   Ref                           Materials
 ===================================================== ============================================  =====  ============================  ==========================================================================================================================================================================
 Data mining for anomaly detection                     PKDD                                          2008   [#Lazarevic2008Data]_         `[Video] <http://videolectures.net/ecmlpkdd08_lazarevic_dmfa/>`_
-Outlier detection techniques                          ACM SIGKDD                                    2010   [#Kriegel2010Outlier]_        `[PDF] <https://imada.sdu.dk/~zimek/publications/KDD2010/kdd10-outlier-tutorial.pdf>`_
-Anomaly Detection: A Tutorial                         ICDM                                          2011   [#Chawla2011Anomaly]_         `[PDF] <http://webdocs.cs.ualberta.ca/~icdm2011/downloads/ICDM2011_anomaly_detection_tutorial.pdf>`_
-Anomaly Detection in Networks                         KDD                                           2017   [#Mendiratta2017Anomaly]_     `[Page] <https://veena-mendiratta.blog/tutorial-anomaly-detection-in-networks/>`_
-Which Outlier Detector Should I use?                  ICDM                                          2018   [#Ting2018Which]_             `[PDF] <https://ieeexplore.ieee.org/document/8594824>`_
-Deep Learning for Anomaly Detection                   KDD                                           2020   [#Wang2020Deep]_              `[HTML] <https://sites.google.com/view/kdd2020deepeye/home>`_, `[Video] <https://www.youtube.com/watch?v=Fn0qDbKL3UI&list=PLn0nrSd4xjja7AD3aY9Jxmr820gx59EQC&index=66>`_
-Deep Learning for Anomaly Detection                   WSDM                                          2021   [#Pang2021Deep]_              `[HTML] <https://sites.google.com/site/gspangsite/wsdm21_tutorial>`_
-Toward Explainable Deep Anomaly Detection             KDD                                           2021   [#Pang2021Toward]_            `[HTML] <https://sites.google.com/site/gspangsite/kdd21_tutorial>`_
-Recent Advances in Anomaly Detection                  CVPR                                          2023   [#Pang2023recent]_            `[HTML] <https://sites.google.com/view/cvpr2023-tutorial-on-ad/>`_, `[Video] <https://www.youtube.com/watch?v=dXxrzWeybBo&feature=youtu.be>`_
-Trustworthy Anomaly Detection                         SDM                                           2024   [#Yuan2024Trustworthy]_       `[HTML] <https://yuan.shuhan.org/talks/SDM24/>`_
+Outlier detection techniques                          ACM SIGKDD                                    2010   [#Kriegel2010Outlier]_        `[PDF] 
 ===================================================== ============================================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -133,10 +120,7 @@ The fully `open-sourced ADBench <https://github.com/Minqi824/ADBench>`_ compares
 Data Types     Paper Title                                                                                        Venue                         Year   Ref                           Materials
 =============  =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Time-series    Revisiting Time Series Outlier Detection: Definitions and Benchmarks                               NeurIPS                       2021   [#Lai2021Revisiting]_         `[PDF] <https://openreview.net/pdf?id=r8IvOsnHchr>`_, `[Code] <https://github.com/datamllab/tods/tree/benchmark>`_
-Graph          Benchmarking Node Outlier Detection on Graphs                                                      NeurIPS                       2022   [#Liu2022Benchmarking]_       `[PDF] <https://arxiv.org/abs/2206.10071>`_, `[Code] <https://github.com/pygod-team/pygod/tree/main/benchmark>`_
-Graph          GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection                           NeurIPS                       2023   [#Tang2023GADBench]_          `[PDF] <https://arxiv.org/abs/2306.12251>`_, `[Code] <https://github.com/squareRoot3/GADBench>`_
-Tabular        ADBench: Anomaly Detection Benchmark                                                               NeurIPS                       2022   [#Han2022Adbench]_            `[PDF] <https://arxiv.org/abs/2206.09426>`_, `[Code] <https://github.com/Minqi824/ADBench>`_
-Tabular        ADGym: Design Choices for Deep Anomaly Detection                                                   NeurIPS                       2023   [#Jiang2023adgym]_            `[PDF] <https://arxiv.org/abs/2309.15376>`_, `[Code] <https://github.com/Minqi824/ADGym>`_
+
 =============  =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -611,228 +595,7 @@ References
 
 .. [#Ahmed2016A] Ahmed, M., Mahmood, A.N. and Islam, M.R., 2016. A survey of anomaly detection techniques in financial domain. *Future Generation Computer Systems*\ , 55, pp.278-288.
 
-.. [#Ahmad2017Unsupervised] Ahmad, S., Lavin, A., Purdy, S. and Agha, Z., 2017. Unsupervised real-time anomaly detection for streaming data. *Neurocomputing*, 262, pp.134-147.
 
-.. [#Akoglu2015Graph] Akoglu, L., Tong, H. and Koutra, D., 2015. Graph based anomaly detection and description: a survey. *Data Mining and Knowledge Discovery*\ , 29(3), pp.626-688.
 
-.. [#Angiulli2002Fast] Angiulli, F. and Pizzuti, C., 2002, August. Fast outlier detection in high dimensional spaces. In *European Conference on Principles of Data Mining and Knowledge Discovery*, pp. 15-27.
-
-.. [#Arnaldo2019ex2] Arnaldo, I., Veeramachaneni, K. and Lam, M., 2019. ex2: a framework for interactive anomaly detection. In *ACM IUI Workshop on Exploratory Search and Interactive Data Analytics (ESIDA)*.
-
-.. [#Bahri2022automl] Bahri, M., Salutari, F., Putina, A. et al. AutoML: state of the art with a focus on anomaly detection, challenges, and research directions. *International Journal of Data Science and Analytics*  (2022).
-
-.. [#Bandaragoda2018Isolation] Bandaragoda, Tharindu R., Kai Ming Ting, David Albrecht, Fei Tony Liu, Ye Zhu, and Jonathan R. Wells. "Isolation‐based anomaly detection using nearest‐neighbor ensembles." *Computational Intelligence* 34, no. 4 (2018): 968-998.
-
-.. [#Bhatia2020MIDAS] Bhatia, S., Hooi, B., Yoon, M., Shin, K. and Faloutsos. C., 2020. MIDAS: Microcluster-Based Detector of Anomalies in Edge Streams. In *AAAI Conference on Artificial Intelligence (AAAI)*.
-
-.. [#Braei2020Anomaly] Braei, M. and Wagner, S., 2020. Anomaly detection in univariate time-series: A survey on the state-of-the-art. arXiv preprint arXiv:2004.00433.
-
-.. [#Breunig2000LOF] Breunig, M.M., Kriegel, H.P., Ng, R.T. and Sander, J., 2000, May. LOF: identifying density-based local outliers. *ACM SIGMOD Record*\ , 29(2), pp. 93-104.
-
-.. [#Bulusu2020Deep] Bulusu, S., Kailkhura, B., Li, B., Varshney, P. and Song, D., 2020. Anomalous instance detection in deep learning: A survey (No. LLNL-CONF-808677). Lawrence Livermore National Lab.(LLNL), Livermore, CA (United States).
-
-.. [#Campos2016On] Campos, G.O., Zimek, A., Sander, J., Campello, R.J., Micenková, B., Schubert, E., Assent, I. and Houle, M.E., 2016. On the evaluation of unsupervised outlier detection: measures, datasets, and an empirical study. *Data Mining and Knowledge Discovery*\ , 30(4), pp.891-927.
-
-.. [#Campos2018An] Campos, G.O., Zimek, A. and Meira, W., 2018, June. An Unsupervised Boosting Strategy for Outlier Detection Ensembles. In *Pacific-Asia Conference on Knowledge Discovery and Data Mining (pp. 564-576)*. Springer, Cham.
-
-.. [#Campos2019Outlier] Campos, G.O., Moreira, E., Meira Jr, W. and Zimek, A., 2019. Outlier Detection in Graphs: A Study on the Impact of Multiple Graph Models. *Computer Science & Information Systems*, 16(2).
-
-.. [#Castellani2020Siamese] Castellani, A., Schmitt, S., Squartini, S., 2020. Real-World Anomaly Detection by using Digital Twin Systems and Weakly-Supervised Learning. In *IEEE Transactions on Industrial Informatics*.
-
-.. [#Chalapathy2019Deep] Chalapathy, R. and Chawla, S., 2019. Deep learning for anomaly detection: A survey. arXiv preprint arXiv:1901.03407.
-
-.. [#Chandola2009Anomaly] Chandola, V., Banerjee, A. and Kumar, V., 2009. Anomaly detection: A survey. *ACM computing surveys* , 41(3), p.15.
-
-.. [#Chawla2011Anomaly] Chawla, S. and Chandola, V., 2011, Anomaly Detection: A Tutorial. *Tutorial at ICDM 2011*.
-
-.. [#Chen2017Outlier] Chen, J., Sathe, S., Aggarwal, C. and Turaga, D., 2017, June. Outlier detection with autoencoder ensembles. *SIAM International Conference on Data Mining*, pp. 90-98. Society for Industrial and Applied Mathematics.
-
-.. [#Dai2022Graph] Dai, E. and Chen, J., 2022. Graph-Augmented Normalizing Flows for Anomaly Detection of Multiple Time Series. International Conference on Learning Representations (ICLR).
-
-.. [#Dang2014Discriminative] Dang, X.H., Assent, I., Ng, R.T., Zimek, A. and Schubert, E., 2014, March. Discriminative features for identifying and interpreting outliers. In *International Conference on Data Engineering (ICDE)*. IEEE.
-
-.. [#Das2019Active] Das, S., Islam, M.R., Jayakodi, N.K. and Doppa, J.R., 2019. Active Anomaly Detection via Ensembles: Insights, Algorithms, and Interpretability. arXiv preprint arXiv:1901.08930.
-
-.. [#Davidson2020A] Davidson, I. and Ravi, S.S., 2020. A framework for determining the fairness of outlier detection. In Proceedings of the 24th European Conference on Artificial Intelligence (ECAI2020) (Vol. 2029).
-
-.. [#Ding2019Interactive] Ding, K., Li, J. and Liu, H., 2019, January. Interactive anomaly detection on attributed networks. In *Proceedings of the Twelfth ACM International Conference on Web Search and Data Mining*, pp. 357-365. ACM.
-
-.. [#Djenouri2018Outlier] Djenouri, Y. and Zimek, A., 2018, June. Outlier detection in urban traffic data. In *Proceedings of the 8th International Conference on Web Intelligence, Mining and Semantics*. ACM.
-
-.. [#Domingues2018A] Domingues, R., Filippone, M., Michiardi, P. and Zouaoui, J., 2018. A comparative evaluation of outlier detection algorithms: Experiments and analyses. *Pattern Recognition*, 74, pp.406-421.
-
-.. [#Emmott2015A] Emmott, A., Das, S., Dietterich, T., Fern, A. and Wong, W.K., 2015. A meta-analysis of the anomaly detection problem. arXiv preprint arXiv:1503.01158.
-
-.. [#Ergen2019Unsupervised] Ergen, T. and Kozat, S.S., 2019. Unsupervised Anomaly Detection With LSTM Neural Networks. *IEEE transactions on neural networks and learning systems*.
-
-.. [#Falcao2019Quantitative] Falcão, F., Zoppi, T., Silva, C.B.V., Santos, A., Fonseca, B., Ceccarelli, A. and Bondavalli, A., 2019, April. Quantitative comparison of unsupervised anomaly detection algorithms for intrusion detection. In *Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing*, (pp. 318-327). ACM.
-
-.. [#GarciaTeodoro2009Anomaly] Garcia-Teodoro, P., Diaz-Verdejo, J., Maciá-Fernández, G. and Vázquez, E., 2009. Anomaly-based network intrusion detection: Techniques, systems and challenges. *Computers & Security*\ , 28(1-2), pp.18-28.
-
-.. [#Goldstein2016A] Goldstein, M. and Uchida, S., 2016. A comparative evaluation of unsupervised anomaly detection algorithms for multivariate data. *PloS one*\ , 11(4), p.e0152173.
-
-.. [#Gupta2014Outlier] Gupta, M., Gao, J., Aggarwal, C.C. and Han, J., 2014. Outlier detection for temporal data: A survey. *IEEE Transactions on Knowledge and Data Engineering*\ , 26(9), pp.2250-2267.
-
-.. [#Hariri2019Extended] Hariri, S., Kind, M.C. and Brunner, R.J., 2019. Extended Isolation Forest. *IEEE Transactions on Knowledge and Data Engineering*.
-
-.. [#Hendrycks2019Deep] Hendrycks, D., Mazeika, M. and Dietterich, T.G., 2019. Deep Anomaly Detection with Outlier Exposure. International Conference on Learning Representations (ICLR).
-
-.. [#Hodge2004A] Hodge, V. and Austin, J., 2004. A survey of outlier detection methodologies. *Artificial intelligence review*\ , 22(2), pp.85-126.
-
-.. [#Hojjati2022Self] Hojjati, H., Ho, T.K.K. and Armanfard, N., 2022. Self-Supervised Anomaly Detection: A Survey and Outlook. arXiv preprint arXiv:2205.05173.
-
-.. [#Hundman2018Detecting] Hundman, K., Constantinou, V., Laporte, C., Colwell, I. and Soderstrom, T., 2018, July. Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding. In *Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, (pp. 387-395). ACM.
-
-.. [#Kannan2017Outlier] Kannan, R., Woo, H., Aggarwal, C.C. and Park, H., 2017, June. Outlier detection for text data. In *Proceedings of the 2017 SIAM International Conference on Data Mining*, pp. 489-497. Society for Industrial and Applied Mathematics. 
-
-.. [#Kriegel2010Outlier] Kriegel, H.P., Kröger, P. and Zimek, A., 2010. Outlier detection techniques. *Tutorial at ACM SIGKDD 2010*.
-
-.. [#Jiang2023adgym] Jiang, M., Hou, C., Zheng, A., Han, S., Huang, H., Wen, Q., Hu, X. and Zhao, Y., 2023. ADGym: Design Choices for Deep Anomaly Detection. *NeurIPS*, Datasets and Benchmarks Track.
-
-.. [#Jiang2023weakly] Jiang, M., Hou, C., Zheng, A., Hu, X., Han, S., Huang, H., He, X., Yu, P.S. and Zhao, Y., 2023. Weakly supervised anomaly detection: A survey. arXiv preprint arXiv:2302.04549.
-
-.. [#Lai2021Revisiting] Lai, K.H., Zha, D., Xu, J., Zhao, Y., Wang, G. and Hu, X., 2021. Revisiting Time Series Outlier Detection: Definitions and Benchmarks. *NeurIPS*, Datasets and Benchmarks Track.
-
-.. [#Lamba2019Learning] Lamba, H. and Akoglu, L., 2019, May. Learning On-the-Job to Re-rank Anomalies from Top-1 Feedback. In *Proceedings of the 2019 SIAM International Conference on Data Mining (SDM)*, pp. 612-620. Society for Industrial and Applied Mathematics.
-
-.. [#Lavin2015Evaluating] Lavin, A. and Ahmad, S., 2015, December. Evaluating Real-Time Anomaly Detection Algorithms--The Numenta Anomaly Benchmark. In *2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA)* (pp. 38-44). IEEE.
-
-.. [#Lazarevic2008Data] Lazarevic, A., Banerjee, A., Chandola, V., Kumar, V. and Srivastava, J., 2008, September. Data mining for anomaly detection. *Tutorial at ECML PKDD 2008*.
-
-.. [#Li2019MAD] Li, D., Chen, D., Jin, B., Shi, L., Goh, J. and Ng, S.K., 2019, September. MAD-GAN: Multivariate anomaly detection for time series data with generative adversarial networks. In *International Conference on Artificial Neural Networks* (pp. 703-716). Springer, Cham.
-
-.. [#Li2020COPOD] Li, Z., Zhao, Y., Botta, N., Ionescu, C. and Hu, X. COPOD: Copula-Based Outlier Detection. *IEEE International Conference on Data Mining (ICDM)*, 2020.
-
-.. [#Li2021ECOD] Li, Z., Zhao, Y., Hu, X., Botta, N., Ionescu, C. and Chen, H. G. ECOD: Unsupervised Outlier Detection Using Empirical Cumulative Distribution Functions. *IEEE Transactions on Knowledge and Data Engineering (TKDE)*, 2022.
-
-.. [#Liu2008Isolation] Liu, F.T., Ting, K.M. and Zhou, Z.H., 2008, December. Isolation forest. In *International Conference on Data Mining*\ , pp. 413-422. IEEE.
-
-.. [#Liu2018Clustering] Liu, H., Li, J., Wu, Y. and Fu, Y., 2019. Clustering with outlier removal. *IEEE transactions on knowledge and data engineering*.
-
-.. [#Liu2018Contextual] Liu, N., Shin, D. and Hu, X., 2017. Contextual outlier interpretation. In *International Joint Conference on Artificial Intelligence (IJCAI-18)*, pp.2461-2467.
-
-.. [#Liu2019Generative] Liu, Y., Li, Z., Zhou, C., Jiang, Y., Sun, J., Wang, M. and He, X., 2019. Generative Adversarial Active Learning for Unsupervised Outlier Detection. *IEEE transactions on knowledge and data engineering*.
-
-.. [#Li2020AutoOD] Li, Y., Chen, Z., Zha, D., Zhou, K., Jin, H., Chen, H. and Hu, X., 2020. AutoOD: Automated Outlier Detection via Curiosity-guided Search and Self-imitation Learning. *ICDE*.
-
-.. [#Liu2022Benchmarking] Liu, K., Dou, Y., Zhao, Y., Ding, X., Hu, X., Zhang, R., Ding, K., Chen, C., Peng, H., Shu, K., Sun, L., Li, J., Chen, G.H., Jia, Z., and Yu, P.S. 2022. Benchmarking Node Outlier Detection on Graphs. arXiv preprint arXiv:2206.10071.
-
-.. [#Ma2021A] Ma, X., Wu, J., Xue, S., Yang, J., Zhou, C., Sheng, Q.Z., Xiong, H. and Akoglu, L., 2021. A comprehensive survey on graph anomaly detection with deep learning. *IEEE Transactions on Knowledge and Data Engineering*.
-
-.. [#Macha2018Explaining] Macha, M. and Akoglu, L., 2018. Explaining anomalies in groups with characterizing subspace rules. Data Mining and Knowledge Discovery, 32(5), pp.1444-1480.
-
-.. [#Manzoor2018Outlier] Manzoor, E., Lamba, H. and Akoglu, L. Outlier Detection in Feature-Evolving Data Streams. In *24th ACM SIGKDD International Conference on Knowledge Discovery and Data mining (KDD)*. 2018.
-
-.. [#Mendiratta2017Anomaly] Mendiratta, B.V., 2017. Anomaly Detection in Networks. *Tutorial at ACM SIGKDD 2017*.
-
-.. [#Micenkova2015Learning] Micenková, B., McWilliams, B. and Assent, I., 2015. Learning representations for outlier detection on a budget. arXiv preprint arXiv:1507.08104.
-
-.. [#Gupta2018Beyond] Gupta, N., Eswaran, D., Shah, N., Akoglu, L. and Faloutsos, C., Beyond Outlier Detection: LookOut for Pictorial Explanation. *ECML PKDD 2018*.
-
-.. [#Han2022Adbench] Han, S., Hu, X., Huang, H., Jiang, M. and Zhao, Y., 2022. ADBench: Anomaly Detection Benchmark. arXiv preprint arXiv:2206.09426.
-
-.. [#Pang2016Unsupervised] Pang, G., Cao, L., Chen, L. and Liu, H., 2016, December. Unsupervised feature selection for outlier detection by modelling hierarchical value-feature couplings. In Data Mining (ICDM), 2016 IEEE 16th International Conference on (pp. 410-419). IEEE.
-
-.. [#Pang2017Learning] Pang, G., Cao, L., Chen, L. and Liu, H., 2017, August. Learning homophily couplings from non-iid data for joint feature selection and noise-resilient outlier detection. In Proceedings of the 26th International Joint Conference on Artificial Intelligence (pp. 2585-2591). AAAI Press.
-
-.. [#Pang2018Learning] Pang, G., Cao, L., Chen, L. and Liu, H., 2018. Learning Representations of Ultrahigh-dimensional Data for Random Distance-based Outlier Detection. In *24th ACM SIGKDD International Conference on Knowledge Discovery and Data mining (KDD)*. 2018.
-
-.. [#Pang2020Deep] Pang, G., Shen, C., Cao, L. and Hengel, A.V.D., 2021. Deep Learning for Anomaly Detection: A Review. ACM Computing Surveys (CSUR), 54(2), pp.1-38.
-
-.. [#Pang2021Deep] Pang, G., Cao, L. and Aggarwal, C., 2021. Deep Learning for Anomaly Detection. *Tutorial at WSDM 2021*.
-
-.. [#Pang2021Toward] Pang, G. and Aggarwal, C., 2021, August. Toward explainable deep anomaly detection. In *KDD* (pp. 4056-4057).
-
-.. [#Pang2023recent] Guansong Pang, Joey Tianyi Zhou, Radu Tudor Ionescu, Yu Tian, and Kihyuk Sohn. "Recent Advances in Anomaly Detection". In: *CVPR'23*. Vancouver, Canada.
-
-.. [#Pelleg2005Active] Pelleg, D. and Moore, A.W., 2005. Active learning for anomaly and rare-category detection. In *Advances in neural information processing systems*\, pp. 1073-1080.
-
-.. [#Radovanovic2015Reverse] Radovanović, M., Nanopoulos, A. and Ivanović, M., 2015. Reverse nearest neighbors in unsupervised distance-based outlier detection. *IEEE transactions on knowledge and data engineering*, 27(5), pp.1369-1382.
-
-.. [#Ramaswamy2000Efficient] Ramaswamy, S., Rastogi, R. and Shim, K., 2000, May. Efficient algorithms for mining outliers from large data sets. *ACM SIGMOD Record*\ , 29(2), pp. 427-438.
-
-.. [#Ranshous2015Anomaly] Ranshous, S., Shen, S., Koutra, D., Harenberg, S., Faloutsos, C. and Samatova, N.F., 2015. Anomaly detection in dynamic networks: a survey. Wiley Interdisciplinary Reviews: Computational Statistics, 7(3), pp.223-247.
-
-.. [#Ren2019Time] Ren, H., Xu, B., Wang, Y., Yi, C., Huang, C., Kou, X., Xing, T., Yang, M., Tong, J. and Zhang, Q., 2019. Time-Series Anomaly Detection Service at Microsoft. In *Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*. ACM.
-
-.. [#Riazi2019Detecting] Riazi, M., Zaiane, O., Takeuchi, T., Maltais, A., Günther, J. and Lipsett, M., Detecting the Onset of Machine Failure Using Anomaly Detection Methods.
-
-.. [#Ro2015Outlier] Ro, K., Zou, C., Wang, Z. and Yin, G., 2015. Outlier detection for high-dimensional data. *Biometrika*, 102(3), pp.589-599.
-
-.. [#Salehi2018A] Salehi, Mahsa & Rashidi, Lida. (2018). A Survey on Anomaly detection in Evolving Data: [with Application to Forest Fire Risk Prediction]. *ACM SIGKDD Explorations Newsletter*. 20. 13-23.
-
-.. [#Salehi2021A] Salehi, M., Mirzaei, H., Hendrycks, D., Li, Y., Rohban, M.H., Sabokrou, M., 2021. A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges. arXiv preprint arXiv:2110.14051.
-
-.. [#Scholkopf2001Estimating] Schölkopf, B., Platt, J.C., Shawe-Taylor, J., Smola, A.J. and Williamson, R.C., 2001. Estimating the support of a high-dimensional distribution. *Neural Computation*, 13(7), pp.1443-1471.
-
-.. [#Sehwag2021SSD] Sehwag, V., Chiang, M., Mittal, P., 2021. SSD: A Unified Framework for Self-Supervised Outlier Detection. *International Conference on Learning Representations (ICLR)*.
-
-.. [#Shekhar2021FAIROD] Shekhar, S., Shah, N. and Akoglu, L., 2021. FAIROD: Fairness-aware Outlier Detection. AAAI/ACM Conference on AI, Ethics, and Society (AIES).
-
-.. [#Siddiqui2019Sequential] Siddiqui, M.A., Fern, A., Dietterich, T.G. and Wong, W.K., 2019. Sequential Feature Explanations for Anomaly Detection. *ACM Transactions on Knowledge Discovery from Data (TKDD)*, 13(1), p.1.
-
-.. [#Sperl2021A3] Sperl, P., Schulze, J.-P., and Böttinger, K., 2021. Activation Anomaly Analysis. *European Conference on Machine Learning and Data Mining (ECML-PKDD) 2020*.
-
-.. [#Suri2019Research] Suri, N.R. and Athithan, G., 2019. Research Issues in Outlier Detection. In *Outlier Detection: Techniques and Applications*, pp. 29-51. Springer, Cham.
-
-.. [#Tang2015Mining] Tang, G., Pei, J., Bailey, J. and Dong, G., 2015. Mining multidimensional contextual outliers from categorical relational data. *Intelligent Data Analysis*, 19(5), pp.1171-1192.
-
-.. [#Tang2023GADBench] Tang, J., Hua, F., Gao, Z., Zhao, P. and Li, J., 2023. GADBench: Revisiting and Benchmarking Supervised Graph Anomaly Detection. *NeurIPS*, Datasets and Benchmarks Track.
-
-.. [#Ting2018Which] Ting, KM., Aryal, S. and Washio, T., 2018, Which Anomaly Detector should I use? *Tutorial at ICDM 2018*.
-
-.. [#Ting2020Isolation] Ting, Kai Ming, Bi-Cun Xu, Takashi Washio, and Zhi-Hua Zhou. "Isolation Distributional Kernel: A New Tool for Kernel based Anomaly Detection." In *Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining*, pp. 198-206. 2020.
-
-.. [#Wang2019Effective] Wang, S., Zeng, Y., Liu, X., Zhu, E., Yin, J., Xu, C. and Kloft, M., 2019. Effective End-to-end Unsupervised Outlier Detection via Inlier Priority of Discriminative Network. In *33rd Conference on Neural Information Processing Systems*.
-
-.. [#Wang2019Progress] Wang, H., Bah, M.J. and Hammad, M., 2019. Progress in Outlier Detection Techniques: A Survey. *IEEE Access*, 7, pp.107964-108000.
-
-.. [#Wang2020Deep] Wang, R., Nie, K., Chang, Y. J., Gong, X., Wang, T., Yang, Y., Long, B.,  2020. Deep Learning for Anomaly Detection. *Tutorial at KDD 2020*.
-
-.. [#WellerFahy2015A] Weller-Fahy, D.J., Borghetti, B.J. and Sodemann, A.A., 2015. A survey of distance and similarity measures used within network intrusion anomaly detection. *IEEE Communications Surveys & Tutorials*\ , 17(1), pp.70-91.
-
-.. [#Xu2021Beyond] Xu, H., Wang, Y., Jian, S., Huang, Z., Wang, Y., Liu, N. and Li, F., 2021, April. Beyond Outlier Detection: Outlier Interpretation by Attention-Guided Triplet Deviation Network. In *Proceedings of the Web Conference* 2021 (pp. 1328-1339).
-
-.. [#Xu2023Deep] Xu, H., Pang, G., Wang, Y., Wang, Y., 2023. Deep Isolation Forest for Anomaly Detection. *IEEE Transactions on Knowledge and Data Engineering*. 
-
-.. [#Xu2023Fascinating] Xu, H., Wang, Y., Wei, J., Jian, S., Li, Y., Liu, N., 2023. Fascinating Supervisory Signals and Where to Find Them: Deep Anomaly Detection with Scale Learning. *International Conference on Machine Learning (ICML)*.
-
-.. [#Yoon2019NETS] Yoon, S., Lee, J. G., & Lee, B. S., 2019. NETS: extremely fast outlier detection from a data stream via set-based processing. Proceedings of the VLDB Endowment, 12(11), 1303-1315.
-
-.. [#Yoon2020STARE] Yoon, S., Lee, J. G., & Lee, B. S., 2020. Ultrafast local outlier detection from a data stream with stationary region skipping. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 1181-1191)
-
-.. [#Yoon2021MDUAL] Yoon, S., Shin, Y., Lee, J. G., & Lee, B. S. (2021, June). Multiple dynamic outlier-detection from a data stream by exploiting duality of data and queries. In Proceedings of the 2021 International Conference on Management of Data (SIGMOD).
-
-.. [#Yoon2022ARCUS] Yoon, S., Lee, Y., Lee, J.G. and Lee, B.S., 2022, August. Adaptive Model Pooling for Online Deep Anomaly Detection from a Complex Evolving Data Stream. In Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (pp. 2347-2357).
-
-.. [#Yu2015Glad] Yu, R., He, X. and Liu, Y., 2015. GLAD: group anomaly detection in social media analysis. *ACM Transactions on Knowledge Discovery from Data (TKDD)*\ , 10(2), p.18.
-
-.. [#Yu2016A] Yu, R., Qiu, H., Wen, Z., Lin, C. and Liu, Y., 2016. A survey on social media anomaly detection. *ACM SIGKDD Explorations Newsletter*\ , 18(1), pp.1-14.
-
-.. [#Yuan2024Trustworthy] Yuan, S., Xu, D. and Wu, X., 2024  Trustworthy Anomaly Detection. *Tutorial at SDM 2024*.
-
-.. [#Zha2020Meta] Zha, D., Lai, K.H., Wan, M. and Hu, X., 2020. Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning. *ICDM*.
-
-.. [#Zhao2018Xgbod] Zhao, Y. and Hryniewicki, M.K., 2018, July. XGBOD: improving supervised outlier detection with unsupervised representation learning. In *2018 International Joint Conference on Neural Networks (IJCNN)*. IEEE.
-
-.. [#Zhao2019LSCP] Zhao, Y., Nasrullah, Z., Hryniewicki, M.K. and Li, Z., 2019, May. LSCP: Locally selective combination in parallel outlier ensembles. In *Proceedings of the 2019 SIAM International Conference on Data Mining (SDM)*, pp. 585-593. Society for Industrial and Applied Mathematics.
-
-.. [#Zhao2019PYOD] Zhao, Y., Nasrullah, Z. and Li, Z., PyOD: A Python Toolbox for Scalable Outlier Detection. *Journal of Machine Learning Research*, 20, pp.1-7.
-
-.. [#Zhao2020Automating] Zhao, Y., Rossi, R.A. and Akoglu, L., 2021. Automatic Unsupervised Outlier Model Selection. *Advances in Neural Information Processing Systems*.
-
-.. [#Zhao2021SUOD] Zhao, Y., Hu, X., Cheng, C., Wang, C., Wan, C., Wang, W., Yang, J., Bai, H., Li, Z., Xiao, C. and Wang, Y., 2021. SUOD: Accelerating Large-scale Unsupervised Heterogeneous Outlier Detection. *Proceedings of Machine Learning and Systems (MLSys)*.
-
-.. [#Zhao2021TOD] Zhao, Y., Chen, G.H. and Jia, Z., 2021. TOD: Tensor-based Outlier Detection. arXiv preprint arXiv:2110.14007.
-
-.. [#Zhou2019AnomalyNet] Zhou, J.T., Du, J., Zhu, H., Peng, X., Liu, Y. and Goh, R.S.M., 2019. AnomalyNet: An anomaly detection network for video surveillance. *IEEE Transactions on Information Forensics and Security*.
-
-.. [#Zhu2019Tripartite] Zhu, Y. and Yang, K., 2019. Tripartite Active Learning for Interactive Anomaly Discovery. *IEEE Access*.
-
-.. [#Zimek2012A] Zimek, A., Schubert, E. and Kriegel, H.P., 2012. A survey on unsupervised outlier detection in high‐dimensional numerical data. *Statistical Analysis and Data Mining: The ASA Data Science Journal*\ , 5(5), pp.363-387.
-
-.. [#Zimek2014Ensembles] Zimek, A., Campello, R.J. and Sander, J., 2014. Ensembles for unsupervised outlier detection: challenges and research questions a position paper. *ACM Sigkdd Explorations Newsletter*\ , 15(1), pp.11-22.
-
-.. [#Zong2018Deep] Zong, B., Song, Q., Min, M.R., Cheng, W., Lumezanu, C., Cho, D. and Chen, H., 2018. Deep autoencoding gaussian mixture model for unsupervised anomaly detection. International Conference on Learning Representations (ICLR).
 
 
