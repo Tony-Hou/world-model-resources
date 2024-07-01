@@ -537,7 +537,7 @@ can be found `data-mining-conferences <https://github.com/yzhao062/data-mining-c
 References
 ----------
 
-.. [#Abe2006Outlier] Abe, N., Zadrozny, B. and Langford, J., 2006, August. Outlier detection by active learning. In *Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining*, pp. 504-509, ACM.
+.. [#Abe2006Outlier] Abe, N., Zadrozny, B. and Langford, J., 2006, August. Revisiting Feature Prediction for Learning Visual Representations from Video.
 
 .. [#Aggarwal2013Outlier] Aggarwal, C.C., 2013. Outlier ensembles: position paper. *ACM SIGKDD Explorations Newsletter*\ , 14(2), pp.49-58.
 
