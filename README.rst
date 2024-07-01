@@ -1,8 +1,8 @@
 Anomaly Detection Learning Resources
 ====================================
 
-.. image:: https://img.shields.io/github/stars/yzhao062/anomaly-detection-resources.svg
-   :target: https://github.com/yzhao062/anomaly-detection-resources/stargazers
+.. image:: https://img.shields.io/github/stars/Tony-Hou/world-model-resources.svg
+   :target: https://github.com/Tony-Hou/world-model-resources/stargazers
    :alt: GitHub stars
 
 
