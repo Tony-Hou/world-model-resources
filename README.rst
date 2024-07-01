@@ -349,10 +349,7 @@ Outlier detection for high-dimensional data                                     
 Paper Title                                                                                        Venue                         Year   Ref                           Materials
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Outlier ensembles: position paper                                                                  SIGKDD Explorations           2013   [#Aggarwal2013Outlier]_       `[PDF] <https://pdfs.semanticscholar.org/841e/ce7c3812bbf799c99c84c064bbcf77916ba9.pdf>`_
-Ensembles for unsupervised outlier detection: challenges and research questions a position paper   SIGKDD Explorations           2014   [#Zimek2014Ensembles]_        `[PDF] <http://www.kdd.org/exploration_files/V15-01-02-Zimek.pdf>`_
-An Unsupervised Boosting Strategy for Outlier Detection Ensembles                                  PAKDD                         2018   [#Campos2018An]_              `[HTML] <https://link.springer.com/chapter/10.1007/978-3-319-93034-3_45>`_
-LSCP: Locally selective combination in parallel outlier ensembles                                  SDM                           2019   [#Zhao2019LSCP]_              `[PDF] <https://epubs.siam.org/doi/pdf/10.1137/1.9781611975673.66>`_
-Adaptive Model Pooling for Online Deep Anomaly Detection from a Complex Evolving Data Stream       KDD                           2022   [#Yoon2022ARCUS]_             `[PDF] <https://dl.acm.org/doi/pdf/10.1145/3534678.3539348>`_, `[Github] <https://github.com/kaist-dmlab/ARCUS>`_, `[Slide] <https://drive.google.com/file/d/1JhrnEj1vScqGy69cfNUpfTjQYZh-vj_D/view>`_
+
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 4.8. Outlier Detection in Evolving Data
@@ -362,14 +359,7 @@ Adaptive Model Pooling for Online Deep Anomaly Detection from a Complex Evolving
 Paper Title                                                                                         Venue                         Year   Ref                           Materials
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 A Survey on Anomaly detection in Evolving Data: [with Application to Forest Fire Risk Prediction]   SIGKDD Explorations           2018   [#Salehi2018A]_               `[PDF] <http://www.kdd.org/exploration_files/20-1-Article2.pdf>`_
-Unsupervised real-time anomaly detection for streaming data                                         Neurocomputing                2017   [#Ahmad2017Unsupervised]_     `[PDF] <https://www.researchgate.net/publication/317325599_Unsupervised_real-time_anomaly_detection_for_streaming_data>`_
-Outlier Detection in Feature-Evolving Data Streams                                                  SIGKDD                        2018   [#Manzoor2018Outlier]_        `[PDF] <https://www.andrew.cmu.edu/user/lakoglu/pubs/18-kdd-xstream.pdf>`_, `[Github] <https://cmuxstream.github.io/>`_
-Evaluating Real-Time Anomaly Detection Algorithms--The Numenta Anomaly Benchmark                    ICMLA                         2015   [#Lavin2015Evaluating]_       `[PDF] <https://arxiv.org/pdf/1510.03336.pdf>`_, `[Github] <https://github.com/numenta/NAB>`_
-MIDAS: Microcluster-Based Detector of Anomalies in Edge Streams                                     AAAI                          2020   [#Bhatia2020MIDAS]_           `[PDF] <https://www.comp.nus.edu.sg/~sbhatia/assets/pdf/midas.pdf>`_, `[Github] <https://github.com/bhatiasiddharth/MIDAS>`_
-NETS: Extremely Fast Outlier Detection from a Data Stream via Set-Based Processing                  VLDB                          2019   [#Yoon2019NETS]_              `[PDF] <http://www.vldb.org/pvldb/vol12/p1303-yoon.pdf>`_, `[Github] <https://github.com/kaist-dmlab/NETS>`_, `[Slide] <https://drive.google.com/file/d/1wqKJZhEE4nTWe0zODu21ejgPDsDA_xaF/view?usp=sharing>`_
-Ultrafast Local Outlier Detection from a Data Stream with Stationary Region Skipping                KDD                           2020   [#Yoon2020STARE]_             `[PDF] <https://dl.acm.org/doi/pdf/10.1145/3394486.3403171>`_, `[Github] <https://github.com/kaist-dmlab/STARE>`_, `[Slide] <https://drive.google.com/file/d/11y7Gs703SKJBkPZ4nKKgua__dHXXMbkV/view?usp=sharing>`_
-Multiple Dynamic Outlier-Detection from a Data Stream by Exploiting Duality of Data and Queries     SIGMOD                        2021   [#Yoon2021MDUAL]_             `[PDF] <https://dl.acm.org/doi/pdf/10.1145/3448016.3452810>`_, `[Github] <https://github.com/kaist-dmlab/MDUAL>`_, `[Slide] <https://drive.google.com/file/d/1wmkkKCAcF9Dk8Wg49WnJF4U--lbtWy9J/view>`_
-Adaptive Model Pooling for Online Deep Anomaly Detection from a Complex Evolving Data Stream        KDD                           2022   [#Yoon2022ARCUS]_             `[PDF] <https://dl.acm.org/doi/pdf/10.1145/3534678.3539348>`_, `[Github] <https://github.com/kaist-dmlab/ARCUS>`_, `[Slide] <https://drive.google.com/file/d/1JhrnEj1vScqGy69cfNUpfTjQYZh-vj_D/view>`_
+
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -380,8 +370,7 @@ Adaptive Model Pooling for Online Deep Anomaly Detection from a Complex Evolving
 Paper Title                                                                                         Venue                         Year   Ref                           Materials
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Learning Representations of Ultrahigh-dimensional Data for Random Distance-based Outlier Detection  SIGKDD                        2018   [#Pang2018Learning]_          `[PDF] <https://arxiv.org/pdf/1806.04808.pdf>`_
-Learning representations for outlier detection on a budget                                          Preprint                      2015   [#Micenkova2015Learning]_     `[PDF] <https://arxiv.org/pdf/1507.08104.pdf>`_
-XGBOD: improving supervised outlier detection with unsupervised representation learning             IJCNN                         2018   [#Zhao2018Xgbod]_             `[PDF] <http://www.andrew.cmu.edu/user/yuezhao2/papers/18-ijcnn-xgbod.pdf>`_
+
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -392,12 +381,7 @@ XGBOD: improving supervised outlier detection with unsupervised representation l
 Paper Title                                                                                        Venue                         Year   Ref                           Materials
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Explaining Anomalies in Groups with Characterizing Subspace Rules                                  DMKD                          2018   [#Macha2018Explaining]_       `[PDF] <https://www.andrew.cmu.edu/user/lakoglu/pubs/18-pkdd-journal-xpacs.pdf>`_
-Beyond Outlier Detection: LookOut for Pictorial Explanation                                        ECML-PKDD                     2018   [#Gupta2018Beyond]_           `[PDF] <https://www.andrew.cmu.edu/user/lakoglu/pubs/18-pkdd-lookout.pdf>`_
-Contextual outlier interpretation                                                                  IJCAI                         2018   [#Liu2018Contextual]_         `[PDF] <https://arxiv.org/pdf/1711.10589.pdf>`_
-Mining multidimensional contextual outliers from categorical relational data                       IDA                           2015   [#Tang2015Mining]_            `[PDF] <http://www.cs.sfu.ca/~jpei/publications/Contextual%20outliers.pdf>`_
-Discriminative features for identifying and interpreting outliers                                  ICDE                          2014   [#Dang2014Discriminative]_    `[PDF] <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.706.5744&rep=rep1&type=pdf>`_
-Sequential Feature Explanations for Anomaly Detection                                              TKDD                          2019   [#Siddiqui2019Sequential]_    `[HTML] <https://dl.acm.org/citation.cfm?id=3230666>`_
-Beyond Outlier Detection: Outlier Interpretation by Attention-Guided Triplet Deviation Network     WWW                           2021   [#Xu2021Beyond]_              `[PDF] <https://jiansonglei.github.io/files/21WWW.pdf>`_
+
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -408,13 +392,7 @@ Beyond Outlier Detection: Outlier Interpretation by Attention-Guided Triplet Dev
 Paper Title                                                                                         Venue                         Year   Ref                           Materials
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Detecting spacecraft anomalies using lstms and nonparametric dynamic thresholding                   KDD                           2018   [#Hundman2018Detecting]_      `[PDF] <https://arxiv.org/pdf/1802.04431.pdf>`_, `[Code] <https://github.com/khundman/telemanom>`_
-MAD-GAN: Multivariate Anomaly Detection for Time Series Data with Generative Adversarial Networks   ICANN                         2019   [#Li2019MAD]_                 `[PDF] <https://arxiv.org/pdf/1901.04997.pdf>`_, `[Code] <https://github.com/LiDan456/MAD-GANs>`_
-Generative Adversarial Active Learning for Unsupervised Outlier Detection                           TKDE                          2019   [#Liu2019Generative]_         `[PDF] <https://arxiv.org/pdf/1809.10816.pdf>`_, `[Code] <https://github.com/leibinghe/GAAL-based-outlier-detection>`_
-Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection                         ICLR                          2018   [#Zong2018Deep]_              `[PDF] <http://www.cs.ucsb.edu/~bzong/doc/iclr18-dagmm.pdf>`_, `[Code] <https://github.com/danieltan07/dagmm>`_
-Deep Anomaly Detection with Outlier Exposure                                                        ICLR                          2019   [#Hendrycks2019Deep]_         `[PDF] <https://arxiv.org/pdf/1812.04606.pdf>`_, `[Code] <https://github.com/hendrycks/outlier-exposure>`_
-Unsupervised Anomaly Detection With LSTM Neural Networks                                            TNNLS                         2019   [#Ergen2019Unsupervised]_     `[PDF] <https://arxiv.org/pdf/1710.09207.pdf>`_, `[IEEE] <https://ieeexplore.ieee.org/document/8836638>`_,
-Effective End-to-end Unsupervised Outlier Detection via Inlier Priority of Discriminative Network   NeurIPS                       2019   [#Wang2019Effective]_         `[PDF] <https://papers.nips.cc/paper/8830-effective-end-to-end-unsupervised-outlier-detection-via-inlier-priority-of-discriminative-network.pdf>`_ `[Code] <https://github.com/demonzyj56/E3Outlier>`_
-Fascinating Supervisory Signals and Where to Find Them: Deep Anomaly Detection with Scale Learning  ICML                          2023   [#Xu2023Fascinating]_         `[PDF] <https://arxiv.org/abs/2305.16114>`_, `[Code] <https://github.com/xuhongzuo/scale-learning>`_ 
+
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -425,10 +403,7 @@ Fascinating Supervisory Signals and Where to Find Them: Deep Anomaly Detection w
 Paper Title                                                                                         Venue                         Year   Ref                           Materials
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Active learning for anomaly and rare-category detection                                             NeurIPS                       2005   [#Pelleg2005Active]_          `[PDF] <http://papers.nips.cc/paper/2554-active-learning-for-anomaly-and-rare-category-detection.pdf>`_
-Outlier detection by active learning                                                                SIGKDD                        2006   [#Abe2006Outlier]_            `[PDF] <https://www.researchgate.net/profile/Naoki_Abe2/publication/221653343_Outlier_detection_by_active_learning/links/5441464a0cf2e6f0c0f60abb.pdf>`_
-Active Anomaly Detection via Ensembles: Insights, Algorithms, and Interpretability                  Preprint                      2019   [#Das2019Active]_             `[PDF] <https://arxiv.org/pdf/1901.08930.pdf>`_
-Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning                                 ICDM                          2020   [#Zha2020Meta]_               `[PDF] <https://arxiv.org/pdf/2009.07415.pdf>`_
-A3: Activation Anomaly Analysis                                                                     ECML-PKDD                     2020   [#Sperl2021A3]_               `[PDF] <https://arxiv.org/pdf/2003.01801>`_, `[Code] <https://github.com/Fraunhofer-AISEC/A3>`_
+
 ==================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
@@ -439,9 +414,7 @@ A3: Activation Anomaly Analysis                                                 
 Paper Title                                                                                        Venue                         Year   Ref                           Materials
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 Learning On-the-Job to Re-rank Anomalies from Top-1 Feedback                                       SDM                           2019   [#Lamba2019Learning]_         `[PDF] <https://epubs.siam.org/doi/pdf/10.1137/1.9781611975673.69>`_
-Interactive anomaly detection on attributed networks                                               WSDM                          2019   [#Ding2019Interactive]_       `[PDF] <http://www.public.asu.edu/~jundongl/paper/WSDM19_GraphUCB.pdf>`_
-eX2: a framework for interactive anomaly detection                                                 IUI Workshop                  2019   [#Arnaldo2019ex2]_            `[PDF] <http://ceur-ws.org/Vol-2327/IUI19WS-ESIDA-2.pdf>`_
-Tripartite Active Learning for Interactive Anomaly Discovery                                       IEEE Access                   2019   [#Zhu2019Tripartite]_         `[PDF] <https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8707963>`_
+
 =================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
 
 
