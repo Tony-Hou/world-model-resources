@@ -98,14 +98,13 @@ A **must-read** for people in the field of world model.
 
 
 
-1.2. Tutorials
+1.2. Tutorials/Talks
 ^^^^^^^^^^^^^^
 
 ===================================================== ============================================  =====  ============================ ==========================================================================================================================================================================
 Tutorial Title                                        Venue                                         Year   Ref                           Materials
 ===================================================== ============================================  =====  ============================ ==========================================================================================================================================================================
-Data mining for anomaly detection                     PKDD                                          2008   [#Lazarevic2008Data]_         `[Video] <http://videolectures.net/ecmlpkdd08_lazarevic_dmfa/>`_
-Outlier detection techniques                          ACM SIGKDD                                    2010   [#Kriegel2010Outlier]_        `[PDF] <> `_
+2022-Neural World Models for Autonomous Driving       None                                          2022   [#WenyuanZeng2022TorontoAIRSeminar]_         `[Video] <https://www.youtube.com/watch?v=wMvYjiv6EpY/>`_
 ===================================================== ============================================  =====  ============================ ==========================================================================================================================================================================
 
 
@@ -139,23 +138,15 @@ OpenScene      None                                                             
 3. Toolbox & Datasets
 ---------------------
 
-3.1. Multivariate Data
+3.1. Toolbox
 ^^^^^^^^^^^^^^^^^^^^^^
 
-
-
-
-
-
-
-3.5. Datasets
+3.2. Datasets
 ^^^^^^^^^^^^^
 
-**ELKI Outlier Datasets**\ : https://elki-project.github.io/datasets/outlier
-
+**OpenScene Datasets**\ : https://huggingface.co/spaces/AGC2024-P/predictive-world-model-2024
 
 ----
-
 
 4. Papers
 ---------
@@ -196,6 +187,7 @@ References
 ----------
 
 .. [#DavidHa2018WorldModels] David Ha, Jürgen Schmidhuber, 2018, Mar. World Models.
+.. [#WenyuanZeng2022TorontoAIRSeminar] Wenyuan zeng, 2022, Dec. Lidarsim: Realistic lidar simulation by leveraging the real world.
 
 
 
