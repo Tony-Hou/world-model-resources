@@ -129,8 +129,8 @@ OpenScene      None                                                             
 2. Courses/Seminars/Videos
 --------------------------
 
-**Coursera Introduction to World model **\ :
-`Yann LeCun: A Path Towards Autonomous Machine Intelligence [See Video] <https://www.youtube.com/watch?v=OKkEdTchsiE>`_
+**Yann LeCun: A Path Towards Autonomous Machine Intelligence**\ :
+`[See Video] <https://www.youtube.com/watch?v=OKkEdTchsiE>`_
 
 
 
